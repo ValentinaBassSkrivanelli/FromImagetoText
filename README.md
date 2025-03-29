@@ -1,28 +1,24 @@
 # FromImagetoText
 Convert your image to text
 
-Convertidor de Imagen a Texto con Python y Tesseract OCR
-Este proyecto es una implementación sencilla de un convertidor de imagen a texto utilizando Python, la biblioteca Pillow (PIL) para el manejo de imágenes y Tesseract OCR para el reconocimiento óptico de caracteres (OCR).
+Image to Text Converter with Python and Tesseract OCR This project is a simple implementation of an image-to-text converter using Python, the Pillow Library (PIL) for image handling, and Tesseract OCR for optical character recognition (OCR).
 
-Funcionamiento
-Carga de imagen: Se utiliza PIL para abrir la imagen que contiene el texto.
+How it Works: Image loading: PIL is used to open the image containing the text.
 
-Procesamiento OCR: Se emplea Tesseract OCR para extraer el texto de la imagen.
+OCR Processing: Tesseract OCR is used to extract the text from the image.
 
-Salida de texto: El resultado se imprime en la consola, mostrando el texto extraído.
+Text Output: The result is printed to the console, displaying the extracted text.
 
-Requisitos
-Python instalado en el sistema.
+Requirements: Python installed on the system.
 
-Tesseract OCR instalado (ruta configurada en el script).
+Tesseract OCR installed (path configured in the script).
 
-Librerías necesarias: Pillow y pytesseract.
+Required libraries: Pillow and pytesseract.
 
-Aplicaciones
-Digitalización de documentos e imágenes.
+Applications: Document and image scanning.
 
-Conversión de texto impreso a formato digital.
+Conversion of printed text to digital format.
 
-Procesamiento automatizado de imágenes con texto.
+Automated image processing with text.
 
-Este proyecto puede ampliarse agregando preprocesamiento de imágenes (binarización, eliminación de ruido, ajuste de contraste) o exportación del texto extraído a un archivo.
+This project can be extended by adding image preprocessing (binarization, noise removal, contrast adjustment) or exporting the extracted text to a file.
